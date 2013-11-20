@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/Base16 Color Schemes/base16-pop.light.tmTheme",
+	"draw_white_space": "selection",
 	"font_face": "Inconsolata",
 	"font_size": 20.0,
 	"ignored_packages":
