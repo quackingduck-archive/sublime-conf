@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/Base16 Color Schemes/base16-pop.light.tmTheme",
 	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Inconsolata",
 	"font_size": 20.0,
 	"ignored_packages":
@@ -11,5 +12,6 @@
 	"line_padding_top": 1,
 	"tab_size": 2,
   "theme": "Soda Light.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
