@@ -12,7 +12,7 @@ The theme and scheme look like:
 
 Quit Sublime then run:
 
-```sh
+```shell-session
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/
 $ cp -rf Packages ~/Desktop/sublime-conf-backup
 $ git clone https://github.com/quackingduck/sublime-conf Packages
