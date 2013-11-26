@@ -14,6 +14,6 @@ Quit Sublime then run:
 
 ```shell-session
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/
-$ cp -rf Packages ~/Desktop/sublime-conf-backup
+$ mv Packages ~/Desktop/sublime-conf-backup
 $ git clone https://github.com/quackingduck/sublime-conf Packages
 ```
