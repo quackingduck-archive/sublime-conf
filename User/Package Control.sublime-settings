@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Base16 Color Schemes",
+		"Case Conversion",
 		"ChangeQuotes",
 		"Git",
 		"GitGutter",
