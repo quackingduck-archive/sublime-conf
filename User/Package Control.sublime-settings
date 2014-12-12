@@ -1,13 +1,19 @@
 {
 	"installed_packages":
 	[
+		"All Autocomplete",
 		"Base16 Color Schemes",
 		"Case Conversion",
 		"ChangeQuotes",
+		"CoffeeScript",
 		"Git",
 		"GitGutter",
 		"HTML Mustache",
+		"JavaScript Snippets",
+		"NodeEval",
 		"Package Control",
+		"RenameTab",
+		"Swift",
 		"Theme - Soda",
 		"TOML"
 	]
