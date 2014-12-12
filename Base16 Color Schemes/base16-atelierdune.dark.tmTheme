@@ -360,7 +360,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-			<string>string.other.link</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -492,7 +492,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -500,11 +500,50 @@
 				<key>background</key>
 				<string>#d73737</string>
 				<key>foreground</key>
+				<string>#fefbec</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#b65611</string>
+				<key>foreground</key>
 				<string>#20201d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d43552</string>
+				<key>foreground</key>
+				<string>#fefbec</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#7d7a68</string>
+				<key>foreground</key>
+				<string>#fefbec</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>92de7d2b-4823-4b41-b4b4-203ec1e598ac</string>
+	<string>544fcf84-1078-4b9e-9205-fb469bb84267</string>
 </dict>
 </plist>
