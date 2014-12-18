@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Base16 Color Schemes/base16-pop.light.tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/base16-pop.light.quackingduck.tmTheme",
 	"default_line_ending": "unix",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
