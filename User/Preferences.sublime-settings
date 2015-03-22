@@ -10,7 +10,7 @@
 		"_site"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 16.0,
+	"font_size": 15.0,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -19,6 +19,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"save_on_focus_lost": true,
+	"show_full_path": true,
 	"tab_size": 2,
 	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
