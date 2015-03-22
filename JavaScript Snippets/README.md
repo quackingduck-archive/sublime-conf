@@ -1,40 +1,25 @@
-Sublime Text Editor 2 - JavaScript Snippets
+Sublime Text Editor 2 / 3 - JavaScript Snippets
 ===========================================
 
-JavaScript / JS snippets for your Sublime Text 2 Fu.
+JavaScript / JS snippets for your Sublime Text 2 / 3 Fu.
 
 
 Install
 -------
 
-### Sublime Text 2 - Package Control
+### Sublime Text 2 / 3 - Package Control
 
-Install via package control: http://wbond.net/sublime_packages/community Search for **JavaScript Snippets** or typically the keywords **js** or **javascript** are suitable.
-
-
-### Mac OS X
-
-    git clone git://github.com/jprichardson/sublime-js-snippets.git ~/Library/Application Support/Sublime Text 2/Packages/JavaScript
-
-
-### Linux
-
-    git clone git://github.com/jprichardson/sublime-js-snippets.git ~/.config/sublime-text-2/Packages/JavaScript
-
-
-### Windows
-
-    git clone git://github.com/jprichardson/sublime-js-snippets.git %userprofile%\AppData\Roaming\Sublime Text 2\Packages\JavaScript
+Install via package control: http://wbond.net/sublime_packages/community Search for **JavaScript Snippets** or typically the keywords **js** or **javascript** are suitable. You can install manually be cloning into your Sublime package directory.
 
 
 
 Vanilla Snippets
 --------
 
-### [afn] anonymous function 
+### [afn] anonymous function
 
-```javascript
-function(${1:arguments}) {
+```js
+function (${1:arguments}) {
 	${0:// body...}
 }
 ```
@@ -42,59 +27,59 @@ function(${1:arguments}) {
 
 ### [cd] console.dir
 
-```javascript
+```js
 console.dir(${1:obj})${0}
 ```
 
 
 ### [ce] console.error
 
-```javascript
+```js
 console.error(${1:error})${0}
 ```
 
 
-### [cl] console.log 
+### [cl] console.log
 
-```javascript
+```js
 console.log(${1:msg})${0}
 ```
 
 
-### [cli] console.log with util.inspect 
+### [cli] console.log with util.inspect
 
-```javascript
+```js
 console.log(require('util').inspect(${1:obj}, true, ${2:10}, true))${0}
 ```
 
 
 ### [ct] console.trace
 
-```javascript
+```js
 console.trace(${1:msg})${0}
 ```
 
 
-### [fn] function 
+### [fn] function
 
-```javascript
-function ${1:methodName}(${2:arguments}) {
+```js
+function ${1:methodName} (${2:arguments}) {
 	${0:// body...}
 }
 ```
 
 ### [ii] Immediately-invoked function expression
 
-```javascript
+```js
 (function () {
 	${0:// body...}
 })();
 ```
 
 
-### [me] module.exports 
+### [me] module.exports
 
-```javascript
+```js
 module.exports = ${1}
 ```
 
@@ -102,23 +87,23 @@ module.exports = ${1}
 ### [okfe] Objects.keys and forEach
 
 ```js
-Object.keys(${1:obj}).forEach(function(key) {
+Object.keys(${1:obj}).forEach(function (key) {
 	${0:// body...}
 })
 ```
 
 
-### [pe] process.exit 
+### [pe] process.exit
 
-```javascript
+```js
 process.exit()
 ```
 
 
 ### [proto] prototype
 
-```javascript
-${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
+```js
+${1:ClassName}.prototype.${2:methodName} = function (${3:arguments}) {
 	${0:// body...}
 }
 ```
@@ -126,15 +111,15 @@ ${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
 
 ### [req] require
 
-```javascript
+```js
 require('${1:package}')${0}
 ```
 
 
 ### [sto] setTimeout
 
-```javascript
-setTimeout(function() {
+```js
+setTimeout(function () {
 	${2:// body...}
 }, ${1:millis})
 ```
@@ -142,8 +127,8 @@ setTimeout(function() {
 
 ### [sti] setInterval
 
-```javascript
-setInterval(function() {
+```js
+setInterval(function () {
 	${2:// body...}
 }, ${1:millis})
 ```
@@ -151,7 +136,7 @@ setInterval(function() {
 
 ### [us] use strict
 
-```javascript
+```js
 'use strict'
 ```
 
@@ -162,8 +147,8 @@ Behaviorial Driven Development
 
 ### [desc] describe
 
-```javascript
-describe('${1:description}', function() {
+```js
+describe('${1:description}', function () {
 	${0:// body...}
 })
 ```
@@ -171,8 +156,8 @@ describe('${1:description}', function() {
 
 ### [ita] asychronous it
 
-```javascript
-it('${1:description}', function(done) {
+```js
+it('${1:description}', function (done) {
 	${0:// body...}
 })
 ```
@@ -180,24 +165,23 @@ it('${1:description}', function(done) {
 
 ### [its] synchronous it
 
-```javascript
-it('${1:description}', function() {
+```js
+it('${1:description}', function () {
 	${0:// body...}
 })
 ```
 
+JavaScript Style
+----------------
 
+[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)
 
-Author
-------
-
-JP Richardson
-
+Uses [JavaScript Standard Code Style](https://github.com/feross/standard). Read the rules [here](https://github.com/feross/standard#rules).
 
 
 License
 -------
 
-Copyright 2012, JP Richardson  <jprichardson@gmail.com>
+Copyright 2012-2015, JP Richardson  <jprichardson@gmail.com>
 
 MIT
