@@ -1,4 +1,11 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -9,13 +16,15 @@
 		"Git",
 		"GitGutter",
 		"HTML Mustache",
+		"Jade",
 		"JavaScript Snippets",
 		"NodeEval",
 		"Package Control",
 		"RenameTab",
+		"Siteleaf Liquid Syntax",
 		"Swift",
-		"SyncedSideBar",
 		"Theme - Soda",
-		"TOML"
+		"TOML",
+		"Yammy Syntax Highlighting"
 	]
 }
