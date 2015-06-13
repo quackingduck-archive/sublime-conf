@@ -16,7 +16,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Base16 Color Schemes"
+		"Base16 Color Schemes",
+		"JavaScript"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
