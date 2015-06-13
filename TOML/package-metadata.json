@@ -1,1 +1,1 @@
-{"url": "https://github.com/Gakai/sublime_toml_highlighting", "version": "1.0.0", "description": "Sublime Text 2/3 syntax highlighting for .toml/.tml format"}
+{"description": "Sublime Text 2/3 syntax highlighting for .toml/.tml format", "url": "https://github.com/Gakai/sublime_toml_highlighting", "platforms": ["*"], "version": "1.0.1", "sublime_text": "*", "dependencies": []}
